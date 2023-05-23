@@ -3,7 +3,7 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
-load_dotenv('secret.env')
+load_dotenv()
 
 KEY = os.getenv('SECRET_KEY')
 
