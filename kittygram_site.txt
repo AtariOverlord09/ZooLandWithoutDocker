@@ -1,0 +1,5 @@
+IP:158.160.15.142;
+name_taski: https://taskimybro.sytes.net;
+name_kittygram: https://superkittygram.ddns.net;
+login: yc-user;
+password: 5WfwS3;
