@@ -33,9 +33,9 @@ python manage.py migrate
 4. Перед запуском WSGI-сервера измените строки в файле юнита, подставьте в 11 и 13 строки ваши пути до проекта. 
 По умолчанию gunicorn использует следующий пути:
 ```
-WorkingDirectory=/home/yc-user/infra_sprint1/backend/
+WorkingDirectory=/home/user/zoolandwithoutdocker/backend/
 
-ExecStart=/home/yc-user/infra_sprint1/backend/env/bin/gunicorn --bind 0.0.0.0:8030 kittygram_backend.wsgi
+ExecStart=/home/user/zoolandwithoutdocker/backend/env/bin/gunicorn --bind 0.0.0.0:8030 kittygram_backend.wsgi
 ```
 
 
@@ -58,8 +58,8 @@ sudo systemctl start nginx
     I. Собрать статику фронтенд-приложения и разместить её в той директории, которую Nginx использует по умолчанию для доступа к статическим файлам.
     II. Собрать статику бэкенд-приложения и разместить её в директории, которую Nginx использует по умолчанию для доступа к статическим файлам.
  
-### Готово! Kittygram готов к использованию!
+### Готово! ZooLandCoop готов к использованию!
 
 
-Автор: AtariOverlord09
-
+Автор:
+Иван Сахневич
