@@ -14,7 +14,7 @@
 
 1. Клонируйте репозиторий проекта командой:
 ```
-git clone https://github.com/AtariOverlord09/infra_sprint1.git
+git clone https://github.com/AtariOverlord09/ZooLandWithoutDocker.git
 ```
 
 
